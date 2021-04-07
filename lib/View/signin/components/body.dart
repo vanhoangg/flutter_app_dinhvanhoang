@@ -24,18 +24,24 @@ class _BodyState extends State<Body> {
   }
   Widget headerScreen(BuildContext context)
   {
-    return Container(
-      width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height*0.2,
-      alignment: Alignment.topRight,
-      child: Image.asset("dish.png"),
+    return Expanded(
+      flex: 1,
+      child: Container(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height*0.2,
+        alignment: Alignment.topRight,
+        child: Image.asset("dish.png"),
+      ),
     );
   }
   Widget footerScreen(BuildContext context){
-    return Container(
-      width: MediaQuery.of(context).size.width,
-      alignment: Alignment.bottomLeft,
-      child: Image.asset("dish_2.png"),
+    return Expanded(
+      flex: 1,
+      child: Container(
+        width: MediaQuery.of(context).size.width,
+        alignment: Alignment.bottomLeft,
+        child: Image.asset("dish_2.png"),
+      ),
     );
   }
 }
