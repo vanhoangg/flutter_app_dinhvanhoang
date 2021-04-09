@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_dinhvanhoang/routers.dart';
-import 'package:flutter_app_dinhvanhoang/splashpage.dart';
+import 'routers.dart';
+import 'splashpage.dart';
 
 void main() {
   runApp(MyApp());

@@ -8,7 +8,8 @@ class SignInPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomPadding: false,
-      body: Body(),
+      body: Body(
+      ),
     );
   }
 }
