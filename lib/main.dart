@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'View/signin/signinpage.dart';
-
+import 'package:flutter_app_dinhvanhoang/routers.dart';
+import 'package:flutter_app_dinhvanhoang/splashpage.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,13 +11,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          // is not restarted.
-          primarySwatch: Colors.blue,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-        ),
-        home: SignInPage(),
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        // is not restarted.
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      initialRoute: SplashPage.routeName,
+      routes: routes,
       debugShowCheckedModeBanner: false,
     );
   }
