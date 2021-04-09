@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
-import 'View/signin/signinpage.dart';
+import 'SignIn/signinpage.dart';
 
 class SplashPage extends StatelessWidget {
   static String routeName = "/splash";

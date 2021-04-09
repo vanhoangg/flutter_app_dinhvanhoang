@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'routers.dart';
-import 'splashpage.dart';
+import 'Router/routers.dart';
+import 'View/splashpage.dart';
 
 void main() {
   runApp(MyApp());

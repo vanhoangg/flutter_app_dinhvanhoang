@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
-class HomePage extends StatefulWidget {
-  static String routeName = "/home_page";
+import 'components/body.dart';
 
-  @override
-  _HomePageState createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
+class HomePage extends StatelessWidget {
+  int selectIndex = 0;
+  static String routeName = "/home_screen";
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Body();
   }
 }
-// TODO Implement this library.

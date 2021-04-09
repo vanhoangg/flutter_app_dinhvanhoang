@@ -1,9 +1,8 @@
 import 'package:flutter/widgets.dart';
-
-import 'View/home/homepage.dart';
-import 'View/signin/signinpage.dart';
-import 'View/signup/signuppage.dart';
-import 'splashpage.dart';
+import 'package:flutter_app_dinhvanhoang/View/Home/homepage.dart';
+import 'package:flutter_app_dinhvanhoang/View/SignIn/signinpage.dart';
+import 'package:flutter_app_dinhvanhoang/View/SignUp/signuppage.dart';
+import 'package:flutter_app_dinhvanhoang/View/splashpage.dart';
 
 final Map<String, WidgetBuilder> routes = {
   SplashPage.routeName: (context) => SplashPage(),
